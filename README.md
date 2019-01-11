@@ -1,7 +1,7 @@
 Count function to read binary file and count the frequency of target string
 
-please run:  
->make -f makefile to generate executable file
+please run this command to generate executable file  
+>make -f makefile 
 
 And run testing commands such as:   
 >./count example1 "Sly Fox" example1out   

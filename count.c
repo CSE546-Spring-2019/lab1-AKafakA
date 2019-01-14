@@ -8,7 +8,7 @@ long readAndCount(FILE* inputFile, char* searchString);
 int main(int argc, char* argv[]) {
     if (argc != 4) {
         printf("Error: invalid input\n");
-        exit(0);
+        exit(1);
     }
     char* inputFileName = argv[1];
     char* searchString = argv[2];
